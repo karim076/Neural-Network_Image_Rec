@@ -31,7 +31,7 @@ import tensorflow as tf
 model = tf.keras.models.load_model('C:/Users/Karim Alkichouhi/Documents/School/Neural-Network/IMG-REC/Neural-Network_Image_Rec/tensorflow-demo/DataTraining')#input
 
 image_number = 0 # veranderd telkens cijfer met +1 zo dat get door het foto's gaat
-while os.path.isfile(f"C:/Users/Karim Alkichouhi/Documents/School/Neural-Network/IMG-REC/Neural-Network_Image_Rec/Digit/Digit{image_number}.png"):# het path naar het path
+while os.path.isfile(f"C:/Users/Karim Alkichouhi/Documents/School/Neural-Network/IMG-REC/Neural-Network_Image_Rec/Digit/Digit{image_number}.png"):# het path naar het Foto's met cijfer
     try:
         img = cv2.imread(f"C:/Users/Karim Alkichouhi/Documents/School/Neural-Network/IMG-REC/Neural-Network_Image_Rec/Digit/Digit{image_number}.png")[:,:,0]# File readen
         img = np.invert(np.array([img]))# Het png veranderen in een Array
