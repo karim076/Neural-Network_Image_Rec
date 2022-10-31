@@ -3,11 +3,11 @@ In this project i have made my own neural network and made a model, now it can r
 ## Improvements<br>
 Scale the image size import instead of 28px by 28px so it realistic and train the model.<br>
 ## import<br>
-If copying this code you need these library installed: 
-pip install:
--opencv-python 
--numpy 
--tensorflow 
+If copying this code you need these library installed: <br>
+pip install:<br>
+-opencv-python <br>
+-numpy <br>
+-tensorflow <br>
 -matplotlib.
 
 ## Credit<br>
